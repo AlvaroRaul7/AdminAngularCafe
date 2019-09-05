@@ -93,7 +93,7 @@ const appRoutes: Routes = [
     {
         path         : '',
         pathMatch: 'full' ,
-        redirectTo: 'pages/auth/login-2',
+        redirectTo: 'daw/menu',
 
     },
 

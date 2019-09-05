@@ -89,7 +89,7 @@ export class Login2Component implements OnInit
                if (res.key != null){
                 console.log(res.status);
                 localStorage.setItem('login', JSON.stringify(res));
-                this._router.navigate(['daw/actualizarcategoria']);
+                this._router.navigate(['daw/menu']);
             
             }
             else { console.log('error de autenticacion'); }
